@@ -1,0 +1,40 @@
+body {
+    text-align: center;
+}
+
+
+.nav {
+    background-color: blue;
+    overflow: hidden;
+}
+
+.nav li {
+    display: inline;
+    list-style-type: none;
+}
+
+.nav a {
+    text-decoration: none;
+    display: inline;
+    color: white;
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+.nav a:hover {
+    color: blue;
+    background-color: white;
+}
+
+.nav a.active {
+    color: blue;
+    background-color: white;
+}
+
+li {
+    list-style-type: none;
+}
+
+.info p{
+   font-size: 20px;
+}
