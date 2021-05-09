@@ -1,0 +1,54 @@
+body {
+    text-align: center;
+    background-image: url("./images/background.jpg");
+    color: white;
+}
+
+
+.nav {
+    background-color: #CD6155;
+    overflow: hidden;
+}
+
+.nav li {
+    display: inline;
+    list-style-type: none;
+}
+
+.nav a {
+    text-decoration: none;
+    display: inline;
+    color: white;
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+.nav a:hover {
+    color: blue;
+    background-color: white;
+}
+
+.nav a.active {
+    color: blue;
+    background-color: white;
+}
+
+li {
+    list-style-type: none;
+}
+
+.info{
+   font-size: 20px;
+}
+
+h2 {
+    text-decoration: underline double white;
+}
+
+h3 {
+    text-decoration: underline double white;
+}
+
+.graphs {
+    display: inline;
+}
